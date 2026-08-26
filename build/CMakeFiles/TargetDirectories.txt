@@ -1,0 +1,8 @@
+C:/Users/Arthur/Virtual Machine and Binary generator/build/CMakeFiles/edit_cache.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/CMakeFiles/rebuild_cache.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/src/CMakeFiles/SimpleVM.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/src/CMakeFiles/edit_cache.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/src/CMakeFiles/rebuild_cache.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/tools/CMakeFiles/assembler.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/tools/CMakeFiles/edit_cache.dir
+C:/Users/Arthur/Virtual Machine and Binary generator/build/tools/CMakeFiles/rebuild_cache.dir

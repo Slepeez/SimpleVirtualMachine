@@ -1,0 +1,25 @@
+{
+  "date": "2026-08-25T20:21:33.305610400-03:00",
+  "data": {
+    "C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt": [
+      {
+        "label": "CMAKE_EXPORT_COMPILE_COMMANDS",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt"
+      },
+      {
+        "label": "CMAKE_C_STANDARD",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt"
+      },
+      {
+        "label": "CMAKE_C_STANDARD_REQUIRED",
+        "kind": 12,
+        "detail": "Value",
+        "documentation": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt"
+      }
+    ]
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "date": "2026-08-25T20:21:33.306683100-03:00",
+  "data": {
+    "CMAKE_EXPORT_COMPILE_COMMANDS": {
+      "location": {
+        "uri": "file:///C:/Users/Arthur/Virtual%20Machine%20and%20Binary%20generator/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 4,
+            "character": 4
+          },
+          "end": {
+            "line": 4,
+            "character": 33
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt",
+      "is_function": false
+    },
+    "CMAKE_C_STANDARD": {
+      "location": {
+        "uri": "file:///C:/Users/Arthur/Virtual%20Machine%20and%20Binary%20generator/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 5,
+            "character": 4
+          },
+          "end": {
+            "line": 5,
+            "character": 20
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt",
+      "is_function": false
+    },
+    "CMAKE_C_STANDARD_REQUIRED": {
+      "location": {
+        "uri": "file:///C:/Users/Arthur/Virtual%20Machine%20and%20Binary%20generator/CMakeLists.txt",
+        "range": {
+          "start": {
+            "line": 6,
+            "character": 4
+          },
+          "end": {
+            "line": 6,
+            "character": 29
+          }
+        }
+      },
+      "document_info": "defined variable\nfrom: C:\\Users\\Arthur\\Virtual Machine and Binary generator\\CMakeLists.txt",
+      "is_function": false
+    }
+  }
+}
