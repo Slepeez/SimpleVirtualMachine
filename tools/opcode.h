@@ -1,5 +1,5 @@
-#ifndef INSTRUCTIONS_H
-#define INSTRUCTIONS_H
+#ifndef OPCODE_H
+#define OPCODE_H
 typedef enum {
   OP_HALT,
   OP_LOAD_IMM,
