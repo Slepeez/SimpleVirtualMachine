@@ -39,6 +39,7 @@ int main() {
   bin_header header;
   header.magic[0] = 'B';
   header.magic[1] = 'V';
+  header.version = 1;
   header.data_size = htnos_custom(data_size);
   header.text_size = htnos_custom(text_size);
   fwrite(&header, sizeof(header), 1, file);
