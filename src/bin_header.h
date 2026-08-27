@@ -1,7 +1,6 @@
 #ifndef BIN_HEADER_H
 #define BIN_HEADER_H
 #include <stdint.h>
-
 #pragma pack(push, 1)
 typedef struct {
   char magic[2];
