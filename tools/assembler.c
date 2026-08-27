@@ -30,7 +30,7 @@ int main() {
                              make_instruction(OP_FETCH, 2, 0, 0x00),
                              make_instruction(OP_SUB, 0, 0, 0),
                              make_instruction(OP_JMP_IF_ZERO, 0, 0, 0),
-                             htnos_custom(0x0012),
+                             0x0012,
                              make_instruction(OP_LOAD_IMM, 3, 0, 99),
                              make_instruction(OP_LOAD_IMM, 3, 0, 77),
                              make_instruction(OP_HALT, 0, 0, 0)};
