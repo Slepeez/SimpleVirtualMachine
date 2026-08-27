@@ -1,5 +1,5 @@
 #include "bin_header.h"
-#include "opcodes.h"
+#include "opcode.h"
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
