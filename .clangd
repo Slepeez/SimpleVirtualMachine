@@ -1,3 +1,0 @@
-CompileFlags:
-  Add: [-isystem, C:/msys64/ucrt64/include]
-  Compiler: C:/msys64/ucrt64/bin/gcc.exe
