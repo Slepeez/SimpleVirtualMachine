@@ -2,7 +2,7 @@
 build/
 .cache/
 
-.clangd/
+.clangd
 compile_commands.json
 
 
