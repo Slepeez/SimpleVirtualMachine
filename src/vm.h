@@ -6,10 +6,15 @@
 #include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
+#define MEMORY_SIZE (1 << 16)
+#define MAGIC_BYTE_0 'B'
+#define MAGIC_BYTE_1 'V'
+#define CURRENT_VERSION 1
 typedef struct {
   int registers[4];
   uint16_t pc;
   bool running;
 } virtual_machine;
-
+int load_program(virtual_machine *vm, const char *file_path);
+void run_virtual_machine(virtual_machine *vm);
 #endif // VM_H
