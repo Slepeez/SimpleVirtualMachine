@@ -10,6 +10,7 @@
 #define MAGIC_BYTE_1 'V'
 #define CURRENT_VERSION 1
 typedef struct {
+  uint8_t memory[MEMORY_SIZE];
   int registers[4];
   uint16_t pc;
   bool running;
