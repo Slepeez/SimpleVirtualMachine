@@ -3,6 +3,8 @@
 #include "bin_header.h"
 #include "opcodes.h"
 #include <stdbool.h>
+#define TEXT_SECTION_START 0x0000
+#define DATA_SECTION_STATR 0x8000
 #define MEMORY_SIZE (1 << 16)
 #define MAGIC_BYTE_0 'B'
 #define MAGIC_BYTE_1 'V'
