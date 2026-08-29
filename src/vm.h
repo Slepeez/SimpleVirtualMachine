@@ -3,9 +3,6 @@
 #include "bin_header.h"
 #include "opcodes.h"
 #include <stdbool.h>
-#include <stdint.h>
-#include <stdio.h>
-#include <stdlib.h>
 #define MEMORY_SIZE (1 << 16)
 #define MAGIC_BYTE_0 'B'
 #define MAGIC_BYTE_1 'V'
