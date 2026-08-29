@@ -17,4 +17,5 @@ typedef struct {
 static inline uint16_t noths_custom(uint16_t val);
 bool load_program(virtual_machine *vm, const char *file_path);
 void run_virtual_machine(virtual_machine *vm);
+void show_registers(const virtual_machine *vm);
 #endif // VM_H
