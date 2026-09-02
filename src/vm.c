@@ -24,6 +24,18 @@ bool load_program(virtual_machine *vm, const char *file_path) {
   }
   uint16_t text_size =  noths_custom(header.text_size);
   uint16_t data_size = noths_custom(header.data_size);
+ if (fread(&vm->memory[TEXT_SECTION_START], 1, text_size, file) != text_size) {
+    fprintf(stderr, "Error reading .text section from file.\n");
+    fclose(file);
+    return false;
+  }
+  if (data_size > 0) {
+    if (fread(&vm->memory[DATA_SECTION_START], 1, data_size, file) != data_size) {
+      fprintf(stderr, "Error reading .data section from file.\n");
+      fclose(file);
+      return false;
+    }
+  }
   fclose(file);
   vm->pc = TEXT_SECTION_START;
   return true;
