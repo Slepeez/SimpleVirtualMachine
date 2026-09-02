@@ -29,7 +29,7 @@ bool load_program(virtual_machine *vm, const char *file_path) {
   return true;
 }
 void show_registers(const virtual_machine *vm){
-   for(int i = 0; i < 0; i++){
+   for(int i = 0; i < 4; i++){
       printf("R: %u (0x%04X)\n", i, vm->registers[i], vm->registers[i]);
    }
   printf("PC: 0x%04X", vm->pc);
