@@ -43,7 +43,7 @@ int main() {
   header.data_size = htnos_custom(data_size);
   header.text_size = htnos_custom(text_size);
   fwrite(&header, sizeof(header), 1, file);
-  for (size_t i = 0; i < text_size / 2; i++) {
+  for (size_t i = 0; i < text_size / sizeof(uint16_t); i++) {
     uint16_t instructions_be = htnos_custom(instructions[i]);
     fwrite(&instructions_be, sizeof(uint16_t), 1, file);
   }
