@@ -45,9 +45,9 @@ int main() {
   fwrite(&header, sizeof(header), 1, file);
   for (size_t i = 0; i < text_size / 2; i++) {
     uint16_t instructions_be = htnos_custom(instructions[i]);
-    fwrite(&instructions_be, sizeof(header), 1, file);
+    fwrite(&instructions_be, sizeof(uint16_t), 1, file);
   }
-  fwrite(&inicial_data, sizeof(uint8_t), data_size, file);
+  fwrite(inicial_data, sizeof(uint8_t), data_size, file);
 
   printf("Program file is done. ");
 
